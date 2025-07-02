@@ -60,85 +60,10 @@
             "video_text": "",
             "video_link": ""
           }
-        },
-        "5655c2ea-52e3-4de8-a550-76a9b69e2a46": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 10,
-            "text_width": "wide",
-            "text_position": "bottom-left",
-            "text_color": "text-light",
-            "subheading": "Introducing",
-            "title": "Welcome to Alynx",
-            "text": "Add more info or delete this text",
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify://collections/all",
-            "button_1_color": "btn--secondary",
-            "button_1_style": "btn--outline",
-            "button_1_size": "btn--large",
-            "button_2_text": "Learn More",
-            "button_2_link": "",
-            "button_2_color": "btn--secondary",
-            "button_2_style": "btn--outline",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
-        },
-        "image_83dhhw": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 10,
-            "text_width": "normal",
-            "text_position": "center",
-            "text_color": "text-light",
-            "subheading": "",
-            "title": "Welcome to Alynx",
-            "text": "Add more info or delete this text",
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify://collections/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--large",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
-        },
-        "image_YUxeFP": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 10,
-            "text_width": "normal",
-            "text_position": "center",
-            "text_color": "text-light",
-            "subheading": "",
-            "title": "Welcome to Alynx",
-            "text": "Add more info or delete this text",
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify://collections/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--large",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
         }
       },
       "block_order": [
-        "image_KYPABe",
-        "5655c2ea-52e3-4de8-a550-76a9b69e2a46",
-        "image_83dhhw",
-        "image_YUxeFP"
+        "image_KYPABe"
       ],
       "settings": {
         "slide_height": "three-quarters-height",
