@@ -1,0 +1,212 @@
+{% style %}
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    z-index: 1000;
+  }
+
+  /* Styles for the popup */
+  .popup-banner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: #fff; */
+    /* padding: 20px; */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    z-index: 1001; /* Ensure the popup is on top of the overlay */
+    text-align: center;
+    max-width: 50%;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  #successPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1001;
+    text-align: center;
+    max-width: 40%;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .popup-banner h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .popup-banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Style for the close button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  /* Styles for the link */
+  .offer-link {
+    display: inline-block;
+    /* padding: 10px 20px; */
+    /* background-color: #fff; */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .success-tick {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .success-tick span img {
+    width: 50px;
+    height: 50px;
+  }
+  .first-popup {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .popup-banner {
+      max-width: 80%;
+    }
+    #successPopup {
+      max-width: 80%;
+    }
+    #successPopup h2 {
+      font-size: 1.5rem;
+    }
+    #successPopup p,
+    #successPopup h2 {
+      color: #01b616;
+    }
+    .close-button {
+      right: 3px;
+    }
+  }
+
+  @media (max-width: 475px) {
+    .popup-banner span svg {
+      width: 10px;
+      height: 10px;
+    }
+    .close-button {
+      top: 0px;
+      right: 5px;
+    }
+  }
+{% endstyle  %}
+<div class="popup-container">
+  <div class="overlay"></div>
+  <!-- Add overlay -->
+  <div class="popup-banner first-popup">
+    <span class="close-button" onclick="closePopup()">
+      <svg
+        id="Layer_1"
+        style="enable-background:new 0 0 512 512;"
+        version="1.1"
+        viewBox="0 0 512 512"
+        width="20px"
+        height="20px"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <path
+          d="M443.6,387.1L312.4,255.4l131.5-130c5.4-5.4,5.4-14.2,0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4  L256,197.8L124.9,68.3c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4L68,105.9c-5.4,5.4-5.4,14.2,0,19.6l131.5,130L68.4,387.1  c-2.6,2.6-4.1,6.1-4.1,9.8c0,3.7,1.4,7.2,4.1,9.8l37.4,37.6c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1L256,313.1l130.7,131.1  c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1l37.4-37.6c2.6-2.6,4.1-6.1,4.1-9.8C447.7,393.2,446.2,389.7,443.6,387.1z" />
+      </svg>
+    </span>
+    {% comment %} <h2>🎉 Grab Your Exclusive Offer! 🎉</h2> {% endcomment %}
+    <a class="offer-link" href="https://shooska.com/discount/FIRST10" onclick="handleOfferClick()">
+      <img
+        src="https://cdn.shopify.com/s/files/1/0742/3787/0368/files/White_Blue_Simple_Special_Offer_Sale_Banner_Landscape.gif?v=1707381895"
+        alt="10% OFF POPUP"
+      >
+    </a>
+  </div>
+
+  <div class="popup-banner" id="successPopup" style="display: none;">
+    <span class="close-button" onclick="closeSuccessPopup()">
+      <svg
+        id="Layer_1"
+        style="enable-background:new 0 0 512 512;"
+        version="1.1"
+        viewBox="0 0 512 512"
+        width="20px"
+        height="20px"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <path
+          d="M443.6,387.1L312.4,255.4l131.5-130c5.4-5.4,5.4-14.2,0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4  L256,197.8L124.9,68.3c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4L68,105.9c-5.4,5.4-5.4,14.2,0,19.6l131.5,130L68.4,387.1  c-2.6,2.6-4.1,6.1-4.1,9.8c0,3.7,1.4,7.2,4.1,9.8l37.4,37.6c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1L256,313.1l130.7,131.1  c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1l37.4-37.6c2.6-2.6,4.1-6.1,4.1-9.8C447.7,393.2,446.2,389.7,443.6,387.1z" />
+      </svg>
+    </span>
+    <h2>🎉 Congratulations! 🎉</h2>
+    <p class="success-tick">
+      <span>
+        <img
+          src="https://cdn.shopify.com/s/files/1/0742/3787/0368/files/Animation_-_1707385804132.gif?v=1707385895"
+          alt="DISCOUNT APPLIED SUCCESSFULLY"
+        >
+      </span>
+      You've successfully claimed the offer.
+    </p>
+  </div>
+</div>
+
+<script>
+  // Function to close the popup
+  function closePopup() {
+    document.querySelector('.popup-container').style.display = 'none';
+    document.querySelector('.overlay').style.display = 'none';
+  }
+
+  function closeSuccessPopup() {
+    sessionStorage.setItem('offerSuccess', 'true');
+    document.querySelector('.popup-container').style.display = 'none';
+    document.querySelector('.overlay').style.display = 'none';
+  }
+
+  // Function to handle offer link click
+  function handleOfferClick() {
+    // Check if the offer link has been clicked before
+    if (!sessionStorage.getItem('offerClicked')) {
+      // Set session storage to indicate the offer link has been clicked
+      sessionStorage.setItem('offerClicked', 'true');
+    }
+  }
+
+  // Check if the offer link has been clicked before
+  window.onload = function () {
+    // document.querySelector('.first-popup').style.display = 'block';
+    if (sessionStorage.getItem('offerSuccess')) {
+      document.querySelector('.popup-container').style.display = 'none';
+    } else if (sessionStorage.getItem('offerClicked')) {
+      document.getElementById('successPopup').style.display = 'block';
+    } else {
+      document.querySelector('.first-popup').style.display = 'block';
+      document.querySelector('.overlay').style.display = 'none';
+    }
+  };
+</script>

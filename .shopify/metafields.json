@@ -1,0 +1,238 @@
+{
+  "article": [
+    {
+      "key": "related_products",
+      "namespace": "custom",
+      "name": "Related Products",
+      "description": "Choose the product related to this blog post.",
+      "type": {
+        "name": "list.product_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "references",
+      "namespace": "custom",
+      "name": "references",
+      "description": "this is a metafield referencing to references/citations in blog-reference-section.",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "blog": [],
+  "brand": [],
+  "collection": [],
+  "company": [],
+  "company_location": [],
+  "location": [
+    {
+      "key": "shipping_to",
+      "namespace": "custom",
+      "name": "shipping_to",
+      "description": "",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "market": [],
+  "order": [],
+  "page": [],
+  "product": [
+    {
+      "key": "rating_count",
+      "namespace": "reviews",
+      "name": "Product rating count",
+      "description": "Total number of ratings from customers",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "rating",
+      "namespace": "reviews",
+      "name": "Product rating",
+      "description": "Average rating from customers",
+      "type": {
+        "name": "rating",
+        "category": "RATING"
+      }
+    },
+    {
+      "key": "related_products_display",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "Related products settings",
+      "description": "Determines how related products are displayed along with algorithmic product recommendations",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "queries",
+      "namespace": "shopify--discovery--product_search_boost",
+      "name": "Search product boosts",
+      "description": "List of search queries for which a product gets higher rank in search results",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "related_products",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "Related products",
+      "description": "List of related products",
+      "type": {
+        "name": "list.product_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "complementary_products",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "Complementary products",
+      "description": "List of complementary products",
+      "type": {
+        "name": "list.product_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "categories",
+      "namespace": "custom",
+      "name": "categories",
+      "description": "Product Categories",
+      "type": {
+        "name": "list.collection_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "botanical_name",
+      "namespace": "custom",
+      "name": "Botanical Name",
+      "description": "Product Botanical Name ",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "cas_",
+      "namespace": "custom",
+      "name": "CAS",
+      "description": "CAS",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "oil_part_of_plant",
+      "namespace": "custom",
+      "name": "OIl Part Of Plant ",
+      "description": "Product specs",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "aroma_profile",
+      "namespace": "custom",
+      "name": "Aroma Profile",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "product_collection",
+      "namespace": "custom",
+      "name": "Product Collection",
+      "description": "Product Collection ",
+      "type": {
+        "name": "list.collection_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "main_collection",
+      "namespace": "custom",
+      "name": "Main Collection",
+      "description": "Product main collection",
+      "type": {
+        "name": "collection_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "industry",
+      "namespace": "custom",
+      "name": "Industry",
+      "description": "This is the metafield referencing to Industry Metaobject.",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "cas",
+      "namespace": "specification",
+      "name": "CAS",
+      "description": "This metafield references to specification of CAS.",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "botanical_name",
+      "namespace": "specification",
+      "name": "Botanical Name",
+      "description": "This metafield references to specification of Botanical Name",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "aroma_profile",
+      "namespace": "specification",
+      "name": "Aroma Profile",
+      "description": "This metafield references to specification of Aroma Profile.",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "oil_part_of_plant",
+      "namespace": "specification",
+      "name": "OIl Part Of Plant",
+      "description": "This metafield references to specification of OIl Part Of Plant.",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "anything",
+      "namespace": "specification",
+      "name": "anything",
+      "description": "",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "variant": [],
+  "shop": []
+}
