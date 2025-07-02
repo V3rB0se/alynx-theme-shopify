@@ -17,8 +17,8 @@
         "announcement-0": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>INTRODUCING SCENTED CAR JEWELRY</strong></p>",
-            "icon_name": "award",
+            "text": "<p><strong>We don’t follow trends. We tell stories.</strong></p>",
+            "icon_name": "none",
             "icon_color": "#bf0404",
             "icon_width": 20,
             "target_url_enabled": false,
