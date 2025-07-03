@@ -44,7 +44,7 @@
             "text_width": "normal",
             "text_position": "bottom-left",
             "text_color": "text-light",
-            "subheading": "",
+            "subheading": "Just Arrived",
             "title": "Original Collection",
             "text": "Originals Don’t Fit In — They Redefine.",
             "button_1_text": "Shop All",
@@ -64,8 +64,8 @@
         "image_YwpgGm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3.png",
-            "image_mobile": "shopify://shop_images/3.png",
+            "image": "shopify://shop_images/unnamed_1.png",
+            "image_mobile": "shopify://shop_images/unnamed_1.png",
             "overlay_opacity": 10,
             "text_width": "normal",
             "text_position": "center",
@@ -97,7 +97,7 @@
         "enable_mobile_height": true,
         "mobile_slide_height": "seven-fifty-height-mobile",
         "show_nav_dots": true,
-        "show_nav_arrows": true,
+        "show_nav_arrows": false,
         "show_arrow_down": false,
         "autoplay": false,
         "duration": 4,
