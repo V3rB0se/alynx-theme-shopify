@@ -145,7 +145,7 @@
         "text_size": 130,
         "overlay_text": false,
         "layout_mobile": "carousel",
-        "section_bg_color": "",
+        "section_bg_color": "#ffffff",
         "section_text_color": "",
         "width": "wrapper--full-padded",
         "padding_top": 60,
@@ -291,6 +291,35 @@
         "direction": "-100%",
         "toggle_pause_on_hover": false,
         "capitalise_text": false
+      }
+    },
+    "section_collection_jn4hWd": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products_layout": "carousel",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Best Sellers</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 100,
+        "text": "<p>Use this text to share information about your collection with your customers.</p>",
+        "text_size": 100,
+        "button_text": "Shop Now",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "bg_color_custom": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "section_overlapping_images_mz4AW8": {
@@ -1533,6 +1562,7 @@
     "sp_marquee_banner_fQVd9k",
     "section_promotion_row_BjR8FA",
     "sp_marquee_banner_mKJMDW",
+    "section_collection_jn4hWd",
     "section_overlapping_images_mz4AW8",
     "8f6df1c6-0cef-4c3c-b6a4-a4c90facd7cb",
     "00d509c3-4914-4001-81ad-985554bab885",
