@@ -60,10 +60,37 @@
             "video_text": "",
             "video_link": ""
           }
+        },
+        "image_YwpgGm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "image_mobile": "shopify://shop_images/3.png",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Original Collection",
+            "text": "Originals Don’t Fit In — They Redefine.",
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
         }
       },
       "block_order": [
-        "image_KYPABe"
+        "image_KYPABe",
+        "image_YwpgGm"
       ],
       "settings": {
         "slide_height": "three-quarters-height",
