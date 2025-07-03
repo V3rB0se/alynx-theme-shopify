@@ -36,7 +36,7 @@
         "background_color": "#fff7f2",
         "text_color": "#000000",
         "mobile_font_size": 12,
-        "desktop_font_size": 12,
+        "desktop_font_size": 14,
         "mobile_padding": 10,
         "desktop_padding": 10,
         "mobile_text_spacing": 10,
