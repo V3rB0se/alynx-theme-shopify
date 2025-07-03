@@ -14,25 +14,10 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Free shipping on orders over $100 </p>",
-            "icon_name": "none",
-            "icon_color": "#000000",
-            "icon_width": 20,
-            "target_url_enabled": false,
-            "target_url": "shopify://collections/all",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
         "text_bnH8zr": {
           "type": "text",
           "settings": {
-            "text": "<p>New customers save 10% with code WELCOME10</p>",
+            "text": "<p>Loved by over 10,000+ customers since 2016</p>",
             "icon_name": "none",
             "icon_color": "#000000",
             "icon_width": 20,
@@ -46,13 +31,12 @@
         }
       },
       "block_order": [
-        "announcement-0",
         "text_bnH8zr"
       ],
       "settings": {
         "bg_color": "#fff7f2",
         "color": "#000000",
-        "layout": "marquee",
+        "layout": "slider",
         "padding": 10,
         "slider_speed": 7,
         "marquee_speed": 100,
@@ -109,11 +93,48 @@
         "title": "",
         "custom_html": "<div class=\"text\">Loved by over 10,000+ customers since 2016</div>"
       }
+    },
+    "sp_marquee_banner_qQVnfa": {
+      "type": "sp-marquee-banner",
+      "blocks": {
+        "marquee_strip_FKaQtR": {
+          "type": "marquee_strip",
+          "settings": {
+            "text": "New customers save 10% with code WELCOME10"
+          }
+        },
+        "marquee_strip_qpMAFY": {
+          "type": "marquee_strip",
+          "settings": {
+            "text": "Free shipping on orders over $100"
+          }
+        }
+      },
+      "block_order": [
+        "marquee_strip_FKaQtR",
+        "marquee_strip_qpMAFY"
+      ],
+      "name": "🚀SP - Marquee Banner",
+      "settings": {
+        "background_color": "#fff7f2",
+        "text_color": "#000000",
+        "mobile_font_size": 12,
+        "desktop_font_size": 12,
+        "mobile_padding": 10,
+        "desktop_padding": 10,
+        "mobile_text_spacing": 10,
+        "desktop_text_spacing": 12,
+        "marquee_speed": 50,
+        "direction": "-100%",
+        "toggle_pause_on_hover": false,
+        "capitalise_text": true
+      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "sp_custom_html_zKtjCG"
+    "sp_custom_html_zKtjCG",
+    "sp_marquee_banner_qQVnfa"
   ]
 }
