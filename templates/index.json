@@ -324,6 +324,7 @@
     },
     "section_overlapping_images_mz4AW8": {
       "type": "section-overlapping-images",
+      "custom_css": [],
       "settings": {
         "text_position": "right",
         "text_alignment": "left",
