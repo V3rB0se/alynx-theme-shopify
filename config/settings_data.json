@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "color_body_bg": "#fff7f2",
+    "color_body_bg": "rgba(0,0,0,0)",
     "color_body_bg_secondary": "#bcb2a8",
     "color_body_custom_bg": "#ffffff",
     "color_bg_accent": "#f5f4f1",
