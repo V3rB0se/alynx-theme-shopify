@@ -80,6 +80,9 @@
       "block_order": [
         "ab19c0db-63ca-4489-a211-693e66e76639"
       ],
+      "custom_css": [
+        "header#SiteHeader {border-top: 1px solid #000;}"
+      ],
       "settings": {
         "sticky_header": true,
         "header_border": true,
@@ -95,10 +98,22 @@
         "header_text_color": "white",
         "header_gradient": false
       }
+    },
+    "sp_custom_html_zKtjCG": {
+      "type": "sp-custom-html",
+      "custom_css": [
+        ".text {padding: 10px; font-size: 12px; text-transform: uppercase; text-align: center; background: #fff7f2; font-weight: 500;}"
+      ],
+      "name": "🚀SP - Custom HTML",
+      "settings": {
+        "title": "",
+        "custom_html": "<div class=\"text\">Loved by over 10,000+ customers since 2016</div>"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "sp_custom_html_zKtjCG"
   ]
 }
