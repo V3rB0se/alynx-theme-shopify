@@ -274,7 +274,7 @@
         "height": "400",
         "bg_color": "#fff7f2",
         "enable_slider_mobile": true,
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "padding_top": 10,
         "padding_bottom": 10
       }
