@@ -11,39 +11,6 @@
   "type": "header",
   "name": "Header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>We don’t follow trends. We tell stories.</strong></p>",
-            "icon_name": "none",
-            "icon_color": "#bf0404",
-            "icon_width": 20,
-            "target_url_enabled": false,
-            "target_url": "",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "announcement-0"
-      ],
-      "settings": {
-        "bg_color": "#f7f7f7",
-        "color": "#545454",
-        "layout": "slider",
-        "padding": 10,
-        "slider_speed": 7,
-        "marquee_speed": 100,
-        "text_size": 100,
-        "message_spacing": 25
-      }
-    },
     "header": {
       "type": "header",
       "blocks": {
@@ -79,10 +46,43 @@
         "header_text_color": "white",
         "header_gradient": false
       }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Loved by over 10,000+ customers since 2016</p>",
+            "icon_name": "none",
+            "icon_color": "#000000",
+            "icon_width": 20,
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0"
+      ],
+      "settings": {
+        "bg_color": "#fff7f2",
+        "color": "#545454",
+        "layout": "slider",
+        "padding": 10,
+        "slider_speed": 7,
+        "marquee_speed": 100,
+        "text_size": 100,
+        "message_spacing": 25
+      }
     }
   },
   "order": [
-    "announcement-bar",
-    "header"
+    "header",
+    "announcement-bar"
   ]
 }
