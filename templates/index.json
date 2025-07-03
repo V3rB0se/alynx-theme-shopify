@@ -11,7 +11,6 @@
   "sections": {
     "1bbaf347-2401-4b7a-b04e-88dcfd69b121": {
       "type": "section-video",
-      "disabled": true,
       "settings": {
         "video_height": "seven-fifty-height",
         "text_position": "middle-center",
@@ -274,7 +273,6 @@
         "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-text-1",
         "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-button-1"
       ],
-      "disabled": true,
       "settings": {
         "height": "six-fifty-height",
         "enable_mobile_height": true,
@@ -373,7 +371,6 @@
       "block_order": [
         "73237c64-6f39-4429-a676-a44d096037c0"
       ],
-      "disabled": true,
       "settings": {
         "collection": "top-five",
         "products_layout": "carousel",
@@ -594,7 +591,6 @@
         "7198a267-0a74-454a-9b95-57415f6751aa",
         "0a71d38f-f8e6-4625-bf9f-73ed70583af9"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "text-left",
@@ -793,7 +789,6 @@
         "b2e598cd-8e64-425a-a4d3-36c64c76ad02",
         "cb96a6bf-cfb0-43d2-9d8f-cdfba2246bc0"
       ],
-      "disabled": true,
       "settings": {
         "accordion_height": "two-thirds-height",
         "enable_mobile_height": false,
@@ -830,7 +825,6 @@
         "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-0",
         "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-1"
       ],
-      "disabled": true,
       "settings": {
         "text_position": "center",
         "bg_color_secondary": false,
@@ -915,7 +909,6 @@
         "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-2",
         "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-3"
       ],
-      "disabled": true,
       "settings": {
         "height": "450",
         "heading_size": 110,
@@ -973,7 +966,6 @@
         "template--18952593899841__b32bd861-589d-4de7-a3a8-b50076aa0436-168312639266b8b01a-2",
         "template--18952593899841__b32bd861-589d-4de7-a3a8-b50076aa0436-168312639266b8b01a-3"
       ],
-      "disabled": true,
       "settings": {
         "height": "650",
         "heading_size": 150,
@@ -1024,7 +1016,6 @@
         "template--18952593899841__0fd0a0be-e77a-4ddb-8b85-6b42aef84431-1683128791b688bb72-1",
         "template--18952593899841__0fd0a0be-e77a-4ddb-8b85-6b42aef84431-1683128791b688bb72-2"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "show_quotations": true,
@@ -1061,7 +1052,6 @@
         "section-look-0",
         "248e6ffd-e952-4c9c-97e3-1ebc77a6f391"
       ],
-      "disabled": true,
       "settings": {
         "enable_aspect_ratio": true,
         "main_image_aspect_ratio": 1,
@@ -1131,7 +1121,6 @@
         "template--19863401005334__bcc1875f-de00-4dbb-8aa2-2a0de64deecf-16892103933dd42018-2",
         "template--19863401005334__bcc1875f-de00-4dbb-8aa2-2a0de64deecf-16892103933dd42018-3"
       ],
-      "disabled": true,
       "settings": {
         "layout": "marquee",
         "padding": 10,
@@ -1314,7 +1303,6 @@
         "description_hDwNh4",
         "icon_row_qDnKGc"
       ],
-      "disabled": true,
       "settings": {
         "product": "aura-scented-car-jewel-gold-and-lapis-lazuli",
         "product_sticky_enable": true,
@@ -1363,7 +1351,6 @@
         "product_XUfta3",
         "product_pKqHb9"
       ],
-      "disabled": true,
       "settings": {
         "enable_aspect_ratio": true,
         "main_image_aspect_ratio": 1,
