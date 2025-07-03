@@ -11,6 +11,35 @@
   "type": "header",
   "name": "Header",
   "sections": {
+    "sp_marquee_banner_ihhyeA": {
+      "type": "sp-marquee-banner",
+      "blocks": {
+        "marquee_strip_XXKkAc": {
+          "type": "marquee_strip",
+          "settings": {
+            "text": "New customers save 10% with code WELCOME10"
+          }
+        }
+      },
+      "block_order": [
+        "marquee_strip_XXKkAc"
+      ],
+      "name": "🚀SP - Marquee Banner",
+      "settings": {
+        "background_color": "#fff7f2",
+        "text_color": "#000000",
+        "mobile_font_size": 10,
+        "desktop_font_size": 14,
+        "mobile_padding": 10,
+        "desktop_padding": 10,
+        "mobile_text_spacing": 10,
+        "desktop_text_spacing": 20,
+        "marquee_speed": 6,
+        "direction": "100%",
+        "toggle_pause_on_hover": true,
+        "capitalise_text": true
+      }
+    },
     "header": {
       "type": "header",
       "blocks": {
@@ -82,6 +111,7 @@
     }
   },
   "order": [
+    "sp_marquee_banner_ihhyeA",
     "header",
     "announcement-bar"
   ]
