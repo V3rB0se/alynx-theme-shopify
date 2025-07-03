@@ -32,7 +32,7 @@
         "text_bnH8zr": {
           "type": "text",
           "settings": {
-            "text": "<p>Free shipping on orders over $100 </p>",
+            "text": "<p>New customers save 10% with code WELCOME10</p>",
             "icon_name": "none",
             "icon_color": "#000000",
             "icon_width": 20,
@@ -57,7 +57,7 @@
         "slider_speed": 7,
         "marquee_speed": 100,
         "text_size": 100,
-        "message_spacing": 15
+        "message_spacing": 20
       }
     },
     "header": {
