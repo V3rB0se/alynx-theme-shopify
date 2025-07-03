@@ -210,6 +210,24 @@
         "capitalise_text": false
       }
     },
+    "sp_gallery_chloe_KdWXBz": {
+      "type": "sp-gallery-chloe",
+      "name": "🚀SP - Gallery-Chloe-01",
+      "settings": {
+        "is_fullwidth": false,
+        "gutter": 10,
+        "bg_color": "transparent",
+        "heading_text": "",
+        "heading_tag": "h2",
+        "inherit_fonts": false,
+        "text_align": "center",
+        "section_padding_top": 50,
+        "section_padding_bottom": 50,
+        "section_padding_top_mobile": 50,
+        "section_padding_bottom_mobile": 50,
+        "custom_css": ""
+      }
+    },
     "sp_marquee_banner_mKJMDW": {
       "type": "sp-marquee-banner",
       "blocks": {
@@ -1512,6 +1530,7 @@
     "f65731be-fed8-4ca8-825e-2c8bce9ebe5b",
     "section_list_collection_bzzp84",
     "sp_marquee_banner_fQVd9k",
+    "sp_gallery_chloe_KdWXBz",
     "sp_marquee_banner_mKJMDW",
     "7e5babe4-7087-48fd-84c2-b5a765eb4053",
     "section_overlapping_images_mz4AW8",
