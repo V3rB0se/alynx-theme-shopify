@@ -125,41 +125,19 @@
             "bg_color": "",
             "overlay_opacity": 30
           }
-        },
-        "collection_9znYVR": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "heading": "",
-            "block_text_color": "",
-            "bg_color": "",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_a9cQ76": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "heading": "",
-            "block_text_color": "",
-            "bg_color": "",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
         "collection_PgV9EK",
         "collection_weqfg6",
         "collection_nAVECP",
-        "collection_7kNABW",
-        "collection_9znYVR",
-        "collection_a9cQ76"
+        "collection_7kNABW"
       ],
       "name": "Collection list",
       "settings": {
         "title": "Shop by Category",
         "heading_size": 100,
-        "layout": "carousel",
+        "layout": "grid",
         "alignment": "center",
         "collections_per_row": 4,
         "image_shape": "square",
