@@ -194,6 +194,7 @@
         "column_WHH7hD": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/unnamed.png",
             "subheading": "<p>IN-STORE AND ONLINE</p>",
             "subheading_size": 75,
             "heading": "<p>20% OFF</p>",
@@ -219,6 +220,7 @@
         "column_446XTH": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/unnamed_1.png",
             "subheading": "<p>For a limited time</p>",
             "subheading_size": 75,
             "heading": "<p><em>FREE PRODUCT</em></p>",
