@@ -581,7 +581,7 @@
         "products_per_row_on_desktop": 4,
         "columns_mobile": "2",
         "text_alignment": "text-center",
-        "title": "",
+        "title": "<p>Top Products</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
@@ -600,80 +600,13 @@
         "padding_bottom": 0
       }
     },
-    "7e04a379-c913-4ec1-8712-388d2638024e": {
-      "type": "section-columns",
-      "blocks": {
-        "template--21025658339616__7e04a379-c913-4ec1-8712-388d2638024e-text_block-1": {
-          "type": "text_block",
-          "settings": {
-            "title": "",
-            "text": "<h5>Our <strong>PERFUME INSERTS </strong>are fragrant black cards inserted in the back of the jewel.        </h5><h5>Simply clip to a/c vent to use.</h5><h5>  <span style=\"text-decoration:underline\">All our scents are </span></h5><ul><li><h5>Phthalate free</h5></li><li><h5>Paraben free</h5></li><li><h5>SLS, and SLES-free</h5></li><li><h5>Vegan, and never tested on animals</h5></li></ul><h5><em><strong>Stick this in your plant when its done.  </strong></em></h5><h5><em><strong>Its biodegradable.</strong></em></h5>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--21025658339616__7e04a379-c913-4ec1-8712-388d2638024e-text_block-2": {
-          "type": "text_block",
-          "settings": {
-            "title": "",
-            "text": "<h4>NEVER RUN OUT OF SCENTS.  Explore our perfume refill options or we will send you new scents each season with our seasonal scent program hookup.</h4>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--21025658339616__7e04a379-c913-4ec1-8712-388d2638024e-text_block-3": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        }
-      },
-      "block_order": [
-        "template--21025658339616__7e04a379-c913-4ec1-8712-388d2638024e-text_block-1",
-        "template--21025658339616__7e04a379-c913-4ec1-8712-388d2638024e-text_block-2",
-        "template--21025658339616__7e04a379-c913-4ec1-8712-388d2638024e-text_block-3"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "text-left",
-        "columns": 2,
-        "equalize_height": false,
-        "image_aspect_ratio": 0.8,
-        "show_images": true,
-        "heading_size": 120,
-        "text_size": 100,
-        "bg_color_secondary": false,
-        "bg_color_custom": false,
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "de24b33b-2807-4480-8a5d-37a2aef6fe0e": {
       "type": "section-columns",
       "blocks": {
         "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-1": {
           "type": "text_block",
           "settings": {
+            "image": "shopify://shop_images/unnamed.png",
             "title": "",
             "text": "",
             "button_text": "",
@@ -685,9 +618,10 @@
             "video_link_color": "text-dark"
           }
         },
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-2": {
+        "text_block_gyMcPi": {
           "type": "text_block",
           "settings": {
+            "image": "shopify://shop_images/unnamed.png",
             "title": "",
             "text": "",
             "button_text": "",
@@ -699,9 +633,10 @@
             "video_link_color": "text-dark"
           }
         },
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-3": {
+        "text_block_dBgJmc": {
           "type": "text_block",
           "settings": {
+            "image": "shopify://shop_images/unnamed.png",
             "title": "",
             "text": "",
             "button_text": "",
@@ -713,9 +648,10 @@
             "video_link_color": "text-dark"
           }
         },
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-4": {
+        "text_block_WA3A8e": {
           "type": "text_block",
           "settings": {
+            "image": "shopify://shop_images/unnamed.png",
             "title": "",
             "text": "",
             "button_text": "",
@@ -727,9 +663,10 @@
             "video_link_color": "text-dark"
           }
         },
-        "6aa6d072-0fe7-482d-ba56-41e71327fcbf": {
+        "text_block_kVXcED": {
           "type": "text_block",
           "settings": {
+            "image": "shopify://shop_images/unnamed.png",
             "title": "",
             "text": "",
             "button_text": "",
@@ -741,37 +678,10 @@
             "video_link_color": "text-dark"
           }
         },
-        "c68998d1-811d-4a05-90fa-0906dcfa78a4": {
+        "text_block_Pikqt8": {
           "type": "text_block",
           "settings": {
-            "title": "",
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "7198a267-0a74-454a-9b95-57415f6751aa": {
-          "type": "text_block",
-          "settings": {
-            "title": "",
-            "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "0a71d38f-f8e6-4625-bf9f-73ed70583af9": {
-          "type": "text_block",
-          "settings": {
+            "image": "shopify://shop_images/unnamed.png",
             "title": "",
             "text": "",
             "button_text": "",
@@ -786,13 +696,11 @@
       },
       "block_order": [
         "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-1",
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-2",
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-3",
-        "template--21025658339616__de24b33b-2807-4480-8a5d-37a2aef6fe0e-text_block-4",
-        "6aa6d072-0fe7-482d-ba56-41e71327fcbf",
-        "c68998d1-811d-4a05-90fa-0906dcfa78a4",
-        "7198a267-0a74-454a-9b95-57415f6751aa",
-        "0a71d38f-f8e6-4625-bf9f-73ed70583af9"
+        "text_block_gyMcPi",
+        "text_block_dBgJmc",
+        "text_block_WA3A8e",
+        "text_block_kVXcED",
+        "text_block_Pikqt8"
       ],
       "settings": {
         "title": "",
@@ -1583,7 +1491,6 @@
     "875915f3-2d9e-46f5-aa62-db393fd8f031",
     "bbcefba4-dacc-4c58-b19c-332faaec110c",
     "4cf35844-daa9-481f-b090-8c1bf37ee05d",
-    "7e04a379-c913-4ec1-8712-388d2638024e",
     "de24b33b-2807-4480-8a5d-37a2aef6fe0e",
     "69f1acf4-2ce7-4c93-b8c2-450dd96f6563",
     "e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b",
