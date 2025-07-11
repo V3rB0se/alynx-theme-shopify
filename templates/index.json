@@ -574,6 +574,9 @@
       "block_order": [
         "73237c64-6f39-4429-a676-a44d096037c0"
       ],
+      "custom_css": [
+        "a.section__link {color: #000 !important;}"
+      ],
       "settings": {
         "collection": "original-collection",
         "products_layout": "carousel",
@@ -585,7 +588,7 @@
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
-        "heading_size": 180,
+        "heading_size": 150,
         "text": "",
         "text_size": 125,
         "button_text": "",
@@ -724,6 +727,8 @@
         "template--21025658339616__69f1acf4-2ce7-4c93-b8c2-450dd96f6563-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/unnamed_1.png",
+            "image_mobile": "shopify://shop_images/unnamed_1.png",
             "overlay_opacity": 10,
             "text_width": "wide",
             "text_position": "left",
@@ -745,6 +750,8 @@
         "template--21025658339616__69f1acf4-2ce7-4c93-b8c2-450dd96f6563-image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/mobile.webp",
+            "image_mobile": "shopify://shop_images/mobile.webp",
             "overlay_opacity": 10,
             "text_width": "wide",
             "text_position": "left",
@@ -766,6 +773,8 @@
         "template--21025658339616__69f1acf4-2ce7-4c93-b8c2-450dd96f6563-image-3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Mask_group_2.webp",
+            "image_mobile": "shopify://shop_images/Mask_group_2.webp",
             "overlay_opacity": 10,
             "text_width": "wide",
             "text_position": "left",
@@ -787,6 +796,8 @@
         "template--21025658339616__69f1acf4-2ce7-4c93-b8c2-450dd96f6563-image-4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/unnamed.png",
+            "image_mobile": "shopify://shop_images/unnamed.png",
             "overlay_opacity": 10,
             "text_width": "wide",
             "text_position": "left",
@@ -808,6 +819,8 @@
         "7aa32352-0dfd-4656-bb8a-5ff96bd7bbc3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/3.png",
+            "image_mobile": "shopify://shop_images/3.png",
             "overlay_opacity": 10,
             "text_width": "wide",
             "text_position": "left",
@@ -829,6 +842,8 @@
         "4c7d51e8-167a-4f08-a1c7-a702395f6bf6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/mobile.webp",
+            "image_mobile": "shopify://shop_images/mobile.webp",
             "overlay_opacity": 10,
             "text_width": "wide",
             "text_position": "left",
@@ -850,6 +865,8 @@
         "b2e598cd-8e64-425a-a4d3-36c64c76ad02": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/unnamed_1.png",
+            "image_mobile": "shopify://shop_images/unnamed_1.png",
             "overlay_opacity": 10,
             "text_width": "wide",
             "text_position": "left",
@@ -871,6 +888,8 @@
         "cb96a6bf-cfb0-43d2-9d8f-cdfba2246bc0": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/3.png",
+            "image_mobile": "shopify://shop_images/3.png",
             "overlay_opacity": 10,
             "text_width": "wide",
             "text_position": "left",
@@ -916,7 +935,7 @@
         "template--18256742449430__e3ca25d1-ffe7-4cc0-b1e7-80a8f74c5e9b-167901971892ae9a60-0": {
           "type": "subheading",
           "settings": {
-            "text": "<p>The Essentials</p>",
+            "text": "<p>Collection</p>",
             "size": 100,
             "margin_bottom": 10
           }
@@ -1020,6 +1039,7 @@
         "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-2",
         "template--18952593899841__9e58ac81-e88d-4b2e-a006-c6d620af2258-168312639266b8b01a-3"
       ],
+      "disabled": true,
       "settings": {
         "height": "450",
         "heading_size": 110,
@@ -1044,6 +1064,7 @@
           "type": "image",
           "settings": {
             "width": "50",
+            "image": "shopify://shop_images/unnamed.png",
             "overlay_opacity": 10,
             "text_position": "bottom-left",
             "subheading": "Introducing",
@@ -1060,6 +1081,7 @@
           "type": "image",
           "settings": {
             "width": "50",
+            "image": "shopify://shop_images/unnamed_1.png",
             "overlay_opacity": 10,
             "text_position": "bottom-left",
             "subheading": "Introducing",
@@ -1145,7 +1167,7 @@
         "section-look-0": {
           "type": "product",
           "settings": {
-            "product": "aura-scented-car-jewel-gold-and-aventurine",
+            "product": "they-said-i-changed-i-said-nvrmd",
             "position_x": 78,
             "position_y": 66
           }
@@ -1153,7 +1175,7 @@
         "248e6ffd-e952-4c9c-97e3-1ebc77a6f391": {
           "type": "product",
           "settings": {
-            "product": "hadesh-scented-car-jewelry-gold-and-blue-agate",
+            "product": "they-said-i-changed-i-said-nvrmd",
             "position_x": 64,
             "position_y": 69
           }
@@ -1164,6 +1186,7 @@
         "248e6ffd-e952-4c9c-97e3-1ebc77a6f391"
       ],
       "settings": {
+        "image": "shopify://shop_images/unnamed.png",
         "enable_aspect_ratio": true,
         "main_image_aspect_ratio": 1,
         "title": "Shop the Look",
@@ -1342,7 +1365,7 @@
         "flex_align": "align--middle-split",
         "text_color": "text-dark",
         "title": "",
-        "text": "<h1><strong>Dont miss out.</strong></h1><h1><strong>Sign up for exclusive deals and early access to new products.</strong></h1>",
+        "text": "<p><strong>Dont miss out.</strong></p><p><strong>Sign up for exclusive deals and early access to new products.</strong></p>",
         "extra_fields": "name",
         "button_text": "SIGN UP FOR FREE NEWSLETTER",
         "bg_color": "",
@@ -1415,10 +1438,10 @@
         "icon_row_qDnKGc"
       ],
       "settings": {
-        "product": "aura-scented-car-jewel-gold-and-lapis-lazuli",
+        "product": "they-said-i-changed-i-said-nvrmd",
         "product_sticky_enable": true,
-        "image_layout": "stacked",
-        "image_width": "large",
+        "image_layout": "carousel",
+        "image_width": "standard",
         "hide_product_thumbnails": false,
         "product_image_aspect_ratio": true,
         "enable_zoom": true,
@@ -1462,6 +1485,7 @@
         "product_XUfta3",
         "product_pKqHb9"
       ],
+      "disabled": true,
       "settings": {
         "enable_aspect_ratio": true,
         "main_image_aspect_ratio": 1,
