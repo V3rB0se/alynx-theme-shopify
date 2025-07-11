@@ -92,7 +92,7 @@
             "collection": "oversized-tees",
             "heading": "",
             "block_text_color": "",
-            "bg_color": "",
+            "bg_color": "#fff7f2",
             "overlay_opacity": 30
           }
         },
@@ -156,7 +156,7 @@
         "text_size": 130,
         "overlay_text": false,
         "layout_mobile": "carousel",
-        "section_bg_color": "#fff7f2",
+        "section_bg_color": "#ffffff",
         "section_text_color": "#0d0d0d",
         "width": "wrapper--full-padded",
         "padding_top": 60,
@@ -343,18 +343,20 @@
         "text_alignment": "left",
         "images_width": 750,
         "images_offset": 60,
+        "image_1": "shopify://shop_images/mobile.webp",
         "image_link_1": "",
+        "image_2": "shopify://shop_images/Mask_group_2.webp",
         "image_link_2": "",
         "hide_image_2": false,
-        "title": "<p>Sustainable trends you'll love <a href=\"https://palo-alto-theme-main.myshopify.com/pages/about\" title=\"About\">forever</a>.</p>",
+        "title": "<p>Sustainable Style, Made to Last</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
-        "description": "<p>✦ We believe that fashion should be stylish, affordable and accessible to everyone.</p><p>✦ Body positivity and inclusivity are values that are at the heart of our brand.</p><p>✦ We want everyone to look and feel good, while also doing our part to help the environment.</p>",
+        "description": "<p><strong>Trends fade. Impact stays.</strong><br/><br/>At NVRMD, we’re redefining fashion — where <em>looking good</em> doesn’t cost the Earth.</p><p>✦ <strong>Style that speaks.</strong> We believe fashion should be bold, affordable, and for <em>everyone.</em><br/><br/>✦ <strong>Every body matters.</strong> Body positivity and inclusivity aren’t buzzwords — they’re built into every stitch.<br/><br/>✦ <strong>Wear the change.</strong> From conscious fabrics to mindful production, we’re doing our part — so you can wear yours.</p><p><strong>Feel good. Look better. Stay NVRMD.</strong></p>",
         "heading_size": 100,
         "button_text": "Our Story",
         "button_link": "#",
-        "button_color": "btn--secondary",
+        "button_color": "btn--primary",
         "button_style": "btn--solid",
         "button_size": "btn--small",
         "video_text": "",
@@ -372,7 +374,7 @@
         "template--21086075322656__8f6df1c6-0cef-4c3c-b6a4-a4c90facd7cb-subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "<p>More than just a car </p><p>air freshener</p>",
+            "text": "<p>NVRMD Tag — More Than Just a Label</p>",
             "size": 180
           }
         },
@@ -389,7 +391,7 @@
         "template--21086075322656__8f6df1c6-0cef-4c3c-b6a4-a4c90facd7cb-text-1": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "<p>✦ Designed to look like a freshener — made to feel like you.<br/><br/>✦ A tag that speaks before you do.<br/><br/>✦ Clip it. Rock it. Own the vibe.</p>",
             "size": 100
           }
         },
@@ -419,6 +421,8 @@
         "height": "full-height",
         "enable_mobile_height": true,
         "mobile_height": "original-height-mobile",
+        "image": "shopify://shop_images/unnamed.png",
+        "image_mobile": "shopify://shop_images/unnamed.png",
         "overlay_opacity": 10,
         "enable_zoom_animation": true,
         "text_width": "normal",
@@ -429,18 +433,10 @@
     "00d509c3-4914-4001-81ad-985554bab885": {
       "type": "section-banner-image",
       "blocks": {
-        "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Shooska is scented car jewelry, and its tranforming the driving experience</p>",
-            "size": 100
-          }
-        },
         "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "<h2>Shooska is scented car jewelry, and its tranforming the driving experience</h2>",
+            "text": "<p>Brand Feature Piece (e.g. Freshener Tag Style Cloth Piece)</p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -450,7 +446,7 @@
         "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Shooska Scented Car Jewelry is a transformative tool designed to help you reclaim the time you spend in your car and turn it into something positive. Its a piece of artfully crafted metal and the power of gemstones, and it carries a clean, gentle, awakening fragrance for your mind, body and car.</p>",
+            "text": "<p>Looks like a freshener — smells like focus. A piece of cloth you wear, not hang. No scent. No fluff. Just attitude, stitched.</p>",
             "size": 120
           }
         },
@@ -471,7 +467,6 @@
         }
       },
       "block_order": [
-        "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-subheading-1",
         "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-heading-1",
         "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-text-1",
         "template--21086075322656__00d509c3-4914-4001-81ad-985554bab885-button-1"
@@ -480,6 +475,8 @@
         "height": "six-fifty-height",
         "enable_mobile_height": true,
         "mobile_height": "full-height-mobile",
+        "image": "shopify://shop_images/unnamed_1.png",
+        "image_mobile": "shopify://shop_images/unnamed_1.png",
         "overlay_opacity": 45,
         "enable_zoom_animation": true,
         "text_width": "normal",
@@ -494,13 +491,14 @@
         "layout": "inline",
         "image_location": "right",
         "image_width": "standard",
+        "image": "shopify://shop_images/3.png",
         "subheading": "",
-        "title": "<p>TRANSFORMING THE DRIVING EXPERIENCE</p>",
+        "title": "<p>Redefining Everyday Wear</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 120,
-        "text_content": "Shooska Scented Car Jewelry is a transformative tool designed to help you reclaim the time you spend in your car and turn it into something positive. \nIt's a piece of artfully crafted metal with the power of gemstones, and it carries a clean, gentle, awakening fragrance for your mind, body and car.",
+        "text_content": "At NVRMD, clothing isn’t just about how it looks — it’s about how it feels, what it says, and how it moves with you.\n\nWe design pieces that let you reclaim your day — whether you're on the street, in your zone, or off the grid.\nEach piece is a blend of sharp design, clean energy, and unapologetic expression.\n\nCrafted with purpose. Worn with pride.\nNot just fashion. A daily shift in perspective.",
         "text_alignment": "left",
         "button_text": "Shop Now",
         "button_link": "shopify://collections/jewels",
@@ -522,13 +520,14 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
+        "image": "shopify://shop_images/unnamed.png",
         "subheading": "",
-        "title": "<p>Personalize your space in your car</p>",
+        "title": "<p>It’s More Than Fabric. It’s Frequency.</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
-        "text_content": "Be clever about how you spend your time\n in your car.   Create a space that feels good \nto ride in.    Vibe your ride.",
+        "text_content": "We’re not here to sell clothes.\nWe’re here to shift how you feel when you wear them.\n\nEvery piece from NVRMD is made to tune into your energy — not trends.\nDesigned to move with your mood, your mindset, and your momentum.\n\nCrafted for clarity. Worn for impact.\nThis is what presence looks like.",
         "text_alignment": "left",
         "button_text": "BUY NOW",
         "button_link": "shopify://collections/jewels",
@@ -549,6 +548,7 @@
         "73237c64-6f39-4429-a676-a44d096037c0": {
           "type": "promo",
           "settings": {
+            "image": "shopify://shop_images/mobile.webp",
             "position": 1,
             "width": "auto",
             "title": "",
@@ -575,7 +575,7 @@
         "73237c64-6f39-4429-a676-a44d096037c0"
       ],
       "settings": {
-        "collection": "top-five",
+        "collection": "original-collection",
         "products_layout": "carousel",
         "number_of_products": 4,
         "products_per_row_on_desktop": 4,
@@ -586,7 +586,7 @@
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 180,
-        "text": "<p><em><strong>MORE THEN AN CAR AIR FRESHENER</strong></em></p><p><em><strong>WE ARE SCENTED CAR JEWELRY</strong></em></p>",
+        "text": "",
         "text_size": 125,
         "button_text": "",
         "button_color": "btn--black",
