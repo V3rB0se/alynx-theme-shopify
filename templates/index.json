@@ -137,7 +137,7 @@
       "settings": {
         "title": "Shop by Category",
         "heading_size": 100,
-        "layout": "grid",
+        "layout": "carousel",
         "alignment": "center",
         "collections_per_row": 4,
         "image_shape": "square",
@@ -145,7 +145,7 @@
         "text_size": 130,
         "overlay_text": false,
         "layout_mobile": "carousel",
-        "section_bg_color": "#ffffff",
+        "section_bg_color": "#fff7f2",
         "section_text_color": "",
         "width": "wrapper--full-padded",
         "padding_top": 60,
